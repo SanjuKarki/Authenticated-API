@@ -1,4 +1,4 @@
-namespace Authenticated_API;
+namespace Authenticated.api;
 
 public class WeatherForecast
 {

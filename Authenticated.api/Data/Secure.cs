@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Autheticated_API;
+namespace Autheticated.api.Data;
 
-public class DBContext : IdentityDbContext<IdentityUser>
+public class Secure : IdentityDbContext<IdentityUser>
 {
     public Secure(DbContextOptions<Secure> options) : base(options)
     { }

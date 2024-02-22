@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Autheticated.models;
 
-namespace Authenticated_API;
+namespace Authenticated.api.Data;
 
 public class DBContext : DbContext
 {
